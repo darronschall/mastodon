@@ -455,6 +455,9 @@ GEM
       openssl (> 2.0, < 3.1)
     orm_adapter (0.5.0)
     ox (2.14.11)
+    panko_serializer (0.7.7)
+      activesupport
+      oj (> 3.11.0, < 4.0.0)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
@@ -820,6 +823,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection (~> 0.1)
   omniauth-saml (~> 1.10)
   ox (~> 2.14)
+  panko_serializer
   parslet
   pg (~> 1.4)
   pghero (~> 2.8)
